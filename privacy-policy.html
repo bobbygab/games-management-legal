@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Games Management System — Privacy Policy</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.7;color:#333;background:#fafafa}
+.wrap{max-width:800px;margin:0 auto;padding:40px 24px 80px}
+.hdr{background:linear-gradient(135deg,#1a1a2e,#16213e);color:#fff;padding:48px 24px;text-align:center;margin-bottom:40px;border-radius:0 0 16px 16px}
+.hdr h1{font-size:28px;color:#ffd700;margin-bottom:8px}
+.hdr p{color:rgba(255,255,255,.6);font-size:14px}
+h2{font-size:20px;color:#1a1a2e;margin:32px 0 12px;padding-bottom:8px;border-bottom:2px solid #ffd700}
+h3{font-size:16px;color:#16213e;margin:20px 0 8px}
+p,li{font-size:15px;margin-bottom:12px}
+ul,ol{padding-left:24px;margin-bottom:16px}
+li{margin-bottom:6px}
+.highlight{background:#f0fdf4;border-left:4px solid #22c55e;padding:16px;margin:16px 0;border-radius:0 8px 8px 0;font-size:14px}
+.note{background:#fff8dc;border-left:4px solid #ffd700;padding:16px;margin:16px 0;border-radius:0 8px 8px 0;font-size:14px}
+.warn{background:#fef2f2;border-left:4px solid #ef4444;padding:16px;margin:16px 0;border-radius:0 8px 8px 0;font-size:14px}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+th{background:#1a1a2e;color:#ffd700;padding:10px 12px;text-align:left;font-weight:600}
+td{padding:10px 12px;border-bottom:1px solid #eee}
+tr:nth-child(even){background:#f8f9fa}
+.contact{background:#f0f7ff;border:1px solid #d0e3ff;padding:20px;border-radius:8px;margin-top:24px}
+.footer{text-align:center;color:#999;font-size:13px;margin-top:48px;padding-top:24px;border-top:1px solid #eee}
+</style>
+</head>
+<body>
+<div class="hdr">
+<h1>Privacy Policy</h1>
+<p>Games Management System — Google Workspace Add-on</p>
+<p style="margin-top:8px;font-size:13px">Last Updated: February 2026</p>
+</div>
+<div class="wrap">
+
+<p>This Privacy Policy explains how the Games Management System ("the Add-on", "we", "our") handles your information when you use our Google Workspace Marketplace add-on for Google Sheets.</p>
+
+<div class="highlight">
+<strong>Privacy Summary:</strong> Your data stays in YOUR Google Sheet. We do not collect, store, or transmit your sports data to any external server. The Add-on runs entirely within your Google account.
+</div>
+
+<h2>1. Information We Access</h2>
+<p>The Add-on requests the following Google OAuth permissions, each for a specific and limited purpose:</p>
+
+<table>
+<tr><th>Permission (OAuth Scope)</th><th>Why It's Needed</th><th>What We Access</th></tr>
+<tr>
+<td><code>spreadsheets.currentonly</code></td>
+<td>Read and write game data, teams, rosters, scores, and settings</td>
+<td>Only the specific Google Sheet where you launched the Add-on — not any other spreadsheets in your account</td>
+</tr>
+<tr>
+<td><code>script.container.ui</code></td>
+<td>Display the Dashboard interface as a dialog inside Google Sheets</td>
+<td>No data accessed — this only allows us to show UI elements</td>
+</tr>
+<tr>
+<td><code>userinfo.email</code></td>
+<td>Identify which user is currently logged in for role-based permissions</td>
+<td>Your Google account email address only</td>
+</tr>
+<tr>
+<td><code>script.external_request</code></td>
+<td>Verify PayPal payments for license activation</td>
+<td>Sends your email to PayPal Transaction Search API to match your payment — only when you click "Verify Payment"</td>
+</tr>
+</table>
+
+<h2>2. Data Storage</h2>
+
+<h3>2.1 Where Your Data Lives</h3>
+<p>All data created and managed by the Add-on is stored <strong>exclusively in your own Google Spreadsheet</strong>. This includes:</p>
+<ul>
+<li>User accounts and roles</li>
+<li>Team information and player rosters</li>
+<li>Game records, scores, and play-by-play events</li>
+<li>Tournament configurations and results</li>
+<li>Settings and preferences</li>
+<li>Activity logs and session records</li>
+<li>License and payment verification records</li>
+</ul>
+
+<div class="highlight">
+<strong>Key Point:</strong> We do not operate any external database or server. Your data exists only inside your Google Sheet, protected by Google's security infrastructure and your own Google account permissions.
+</div>
+
+<h3>2.2 Data We Do NOT Store</h3>
+<p>We do <strong>not</strong> collect, store, or have access to:</p>
+<ul>
+<li>Your data on any external server or database</li>
+<li>Data from any spreadsheet other than the one where you installed the Add-on</li>
+<li>Your Google account password</li>
+<li>Your payment card details (payments are handled entirely by PayPal)</li>
+<li>Your browsing history or activity outside the Add-on</li>
+<li>Personal information about students or minors beyond what you enter into team rosters</li>
+</ul>
+
+<h2>3. How We Use Your Information</h2>
+
+<table>
+<tr><th>Information</th><th>How It's Used</th><th>Shared With</th></tr>
+<tr>
+<td>Email address</td>
+<td>User identification, role assignment, session management, and payment verification</td>
+<td>PayPal (only during payment verification, only your email)</td>
+</tr>
+<tr>
+<td>Sports data (games, teams, scores)</td>
+<td>Core Add-on functionality — displaying dashboards, scoring games, generating reports</td>
+<td>Nobody — stays in your Google Sheet</td>
+</tr>
+<tr>
+<td>Settings and preferences</td>
+<td>Customizing the Add-on experience (branding, basketball rules, display options)</td>
+<td>Nobody — stays in your Google Sheet</td>
+</tr>
+<tr>
+<td>Activity logs</td>
+<td>Audit trail for administrative purposes (who did what and when)</td>
+<td>Nobody — stays in your Google Sheet</td>
+</tr>
+</table>
+
+<h2>4. External Service Connections</h2>
+
+<h3>4.1 Google Services</h3>
+<p>The Add-on uses standard Google Apps Script services to operate within Google Sheets. Your data is subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Google's Terms of Service</a>.</p>
+
+<h3>4.2 PayPal</h3>
+<p>When you click "Verify My Payment" in the License settings, the Add-on makes a server-side API call to PayPal's Transaction Search API. This call:</p>
+<ul>
+<li>Sends your Google account email address to match against PayPal transactions</li>
+<li>Searches for completed payments from the last 90 days</li>
+<li>Returns only the transaction amount and status — no other personal or financial data</li>
+<li>Is initiated only by you (the Super Admin) clicking the verify button — never automatically</li>
+</ul>
+<p>PayPal's handling of your payment data is subject to <a href="https://www.paypal.com/webapps/mpp/ua/privacy-full" target="_blank">PayPal's Privacy Policy</a>.</p>
+
+<h2>5. Data Sharing and Disclosure</h2>
+<p>We do <strong>not</strong> sell, trade, rent, or share your personal information with any third parties for marketing or advertising purposes. We may disclose information only in the following circumstances:</p>
+<ul>
+<li><strong>PayPal verification:</strong> Your email is sent to PayPal for payment matching (only when you initiate verification)</li>
+<li><strong>Legal requirements:</strong> If required by law, regulation, or legal process</li>
+<li><strong>Protection:</strong> To protect the rights, safety, or property of users or the public</li>
+</ul>
+
+<h2>6. Data Security</h2>
+<p>Your data is protected by multiple layers of security:</p>
+<ul>
+<li><strong>Google Account Security:</strong> Access to your spreadsheet is controlled by Google's authentication and authorization systems</li>
+<li><strong>Spreadsheet Permissions:</strong> Only users with whom you share the Google Sheet can access the data</li>
+<li><strong>Role-Based Access:</strong> The Add-on enforces role-based permissions (Super Admin, Admin, Referee, Scorekeeper, Viewer) to control who can modify data</li>
+<li><strong>Session Management:</strong> User sessions have configurable timeouts</li>
+<li><strong>Minimal Scopes:</strong> We request only the minimum Google permissions needed to operate</li>
+</ul>
+
+<h2>7. Children's Privacy</h2>
+<p>The Add-on is designed for use by schools and sports organizations and may contain information about minors (student athletes) in team rosters. Important points:</p>
+<ul>
+<li>The Add-on does not directly collect information from children</li>
+<li>All data entry is performed by authorized adults (administrators, coaches, referees)</li>
+<li>Player information is stored only in the organization's own Google Sheet</li>
+<li>The Add-on does not share player information with any external service</li>
+<li>Organizations using the Add-on are responsible for compliance with applicable child privacy laws (such as COPPA or equivalent local regulations)</li>
+</ul>
+
+<h2>8. Data Retention and Deletion</h2>
+<p>Since all data is stored in your own Google Spreadsheet:</p>
+<ul>
+<li><strong>You control your data.</strong> You can view, edit, or delete any data at any time directly in your Google Sheet.</li>
+<li><strong>Uninstalling the Add-on</strong> removes the Add-on code from your Google account but does not delete the data sheets. Your data remains in your spreadsheet.</li>
+<li><strong>Deleting the spreadsheet</strong> permanently removes all Add-on data (subject to Google's trash/recovery policies).</li>
+<li>We do not retain any copy of your data on external servers.</li>
+</ul>
+
+<h2>9. Your Rights</h2>
+<p>You have the right to:</p>
+<ul>
+<li><strong>Access</strong> all data the Add-on stores (it's all in your Google Sheet)</li>
+<li><strong>Modify</strong> any data directly in the spreadsheet</li>
+<li><strong>Delete</strong> any or all data at any time</li>
+<li><strong>Export</strong> your data using Google Sheets' built-in export features</li>
+<li><strong>Revoke access</strong> by uninstalling the Add-on from Google Workspace Marketplace</li>
+<li><strong>Contact us</strong> with any privacy questions or concerns</li>
+</ul>
+
+<h2>10. Cookies and Tracking</h2>
+<p>The Add-on does not use cookies, web beacons, analytics tracking, or any form of user behavior tracking. We do not track how you use the Add-on, which features you access, or how often you use it.</p>
+
+<h2>11. International Users</h2>
+<p>The Add-on is available globally through the Google Workspace Marketplace. Your data is stored in your Google account and is subject to Google's data storage policies and the applicable laws of your jurisdiction. If you are in the European Economic Area (EEA), you have additional rights under GDPR, including the right to data portability and the right to lodge a complaint with a supervisory authority.</p>
+
+<h2>12. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last Updated" date at the top. We encourage you to review this policy periodically. Continued use of the Add-on after changes constitutes acceptance of the revised policy.</p>
+
+<h2>13. Contact Us</h2>
+<div class="contact">
+<p><strong>Games Management System</strong></p>
+<p>Email: <strong>[YOUR_SUPPORT_EMAIL]</strong></p>
+<p>If you have questions about this Privacy Policy, your data, or your rights, please contact us at the email above. We aim to respond to all inquiries within 5 business days.</p>
+</div>
+
+<div class="note">
+<strong>Note:</strong> Replace <code>[YOUR_SUPPORT_EMAIL]</code> with your actual support email address before hosting this page.
+</div>
+
+<div class="footer">
+<p>&copy; 2026 Games Management System. All rights reserved.</p>
+</div>
+</div>
+</body>
+</html>
